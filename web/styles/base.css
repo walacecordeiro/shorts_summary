@@ -7,7 +7,15 @@
   box-sizing: border-box;
 
   --background-global: #121214;
+  --background-input: #202024;
+
+  --placeholder-off: #7c7c8a;
+
+  --outline: #8257e5;
+  --outline-hover: #633bbc;
   --primary-color: #996dff;
+
+  --color-white: #fff;
 }
 
 body {
@@ -17,7 +25,7 @@ body {
   height: 100vh;
 
   font-size: 1.6rem;
-  color: #fff;
+  color: var(--color-white);
 
   display: flex;
   flex-direction: column;
