@@ -1,20 +1,23 @@
 :root {
   font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
   --background-global: #121214;
+  --primary-color: #996dff;
 }
 
 body {
   background-color: var(--background-global);
-  
+
   width: 100%;
   height: 100vh;
 
   font-size: 1.6rem;
+  color: #fff;
 
   display: flex;
   flex-direction: column;
