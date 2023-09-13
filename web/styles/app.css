@@ -9,19 +9,17 @@
   margin-top: -.5rem;
 }
 
-#app > img {
-  width: 6.4rem;
-}
-
 #app > h2 {
   align-self: flex-start;
-  margin-top: 10.4rem;
+  margin-top: 6.4rem;
 }
 
 #app > p {
   align-self: flex-start;
   text-align: justify;
   width: 51.2rem;
+
+  margin-top: -.5rem;
 }
 
 #app .placeholder {
