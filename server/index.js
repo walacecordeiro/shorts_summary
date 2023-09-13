@@ -8,7 +8,7 @@ app.use(cors());
 
 app.get("/resumo/:id", (request, response) => {
   download(request.params.id);
-  response.send(`ID do vídeo: ${request.params.id}`);
+  response.json({ result: "Download do vídeo realizado com sucesso!" });
 });
 
 app.listen(3333, () => console.log(`O servidor está executando na porta 3333`));
