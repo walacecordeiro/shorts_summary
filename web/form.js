@@ -6,6 +6,7 @@ const content = document.querySelector("#content");
 
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
+  content.classList.add("placeholder")
 
   const videoURL = input.value;
 
@@ -34,11 +35,11 @@ form.addEventListener("submit", async (event) => {
 
   const summary = await server.post("/resumo/", {
     text: transcription.data.result,
-  })
+  });
 
   Object.assign(content, {
     textContent: summary.data.result,
-    style: "color: var(--placeholder-off);",
+    style: "color: var(--color-white);",
+    className: content.className.replace("placeholder", ""),
   });
-
 });

@@ -13,24 +13,25 @@
       rel="stylesheet"
     />
     <title>Shorts Summary</title>
+
+    <script type="module" src="web/main.js" defer></script>
+    <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
   </head>
   <body>
     <div id="app">
-
       <img src="/logo.svg" alt="logo" />
 
       <h1>Shorts Summary</h1>
 
       <form id="form">
-        <input type="url" id="url" placeholder="URL do vídeo">
+        <input type="url" id="url" placeholder="Link do short do YouTube" />
         <button title="Resumir"><i class="ph ph-play"></i></button>
       </form>
 
       <h2>Resumo</h2>
-      <p id="content" class="placeholder">Escolha um short para resumir</p>
-
+      <p id="content" class="placeholder">
+        Cole o link de um short do YouTube para resumir
+      </p>
     </div>
-    <script type="module" src="web/main.js"></script>
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
   </body>
 </html>
