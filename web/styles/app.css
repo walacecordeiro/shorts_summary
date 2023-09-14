@@ -24,5 +24,5 @@
 
 #app .placeholder {
   color: var(--placeholder-off);
-  user-select: none;
+  /* user-select: none; */
 }
