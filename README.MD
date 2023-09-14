@@ -18,7 +18,7 @@ Aplicativo para resumir vídeos shorts do YouTube.
 <br>
 
 <p align="center">
-  <img alt="imagem do layout do projeto" src="./.github/preview.png" width="auto" height="auto">
+  <img alt="imagem do layout do projeto" src="./.github/cover.png" width="auto" height="auto">
 </p>
 
 ## 🚀 Tecnologias
