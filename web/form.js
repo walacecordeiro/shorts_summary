@@ -33,7 +33,7 @@ form.addEventListener("submit", async (event) => {
     style: "color: orange;",
   });
 
-  const summary = await server.post("/resumo/", {
+  const summary = await server.post(`/resumo/`, {
     text: transcription.data.result,
   });
 
